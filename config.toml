@@ -9,3 +9,9 @@ highlight_code = true
 highlight_theme = "css"
 
 [extra]
+menu = [
+    { name = "Home", url = "", trailing_slash = true },
+    { name = "How it Works", url = "how-it-works", trailing_slash = true },
+    { name = "Blog", url = "blog", trailing_slash = true },
+    { name = "Contact", url = "contact", trailing_slash = true },
+]
