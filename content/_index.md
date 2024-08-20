@@ -19,4 +19,4 @@ Not anymore. AccessKit enables developers to do their accessibility implementati
 
 AccessKit respects your time and budget by taking care of the platform communication aspect of accessibility. Once you key in all the pertinent accessibility information about your UI elements, AccessKit will take it from there.
 
-[How it works](/how-it-works/)
+[How it works](./how-it-works/)
