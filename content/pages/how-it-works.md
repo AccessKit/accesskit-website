@@ -1,5 +1,6 @@
 +++
 title = "How it Works"
+path = "how-it-works"
 
 [extra]
 header = { title = "How it Works" }

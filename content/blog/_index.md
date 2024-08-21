@@ -1,6 +1,6 @@
 +++
 title = "Blog"
-sort_by = "date"
 template = "section.html"
+sort_by = "date"
 paginate_by = 5
 +++

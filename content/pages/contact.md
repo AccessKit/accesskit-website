@@ -1,5 +1,6 @@
 +++
 title = "Contact"
+path = "contact"
 
 [extra]
 header = { title = "Contact" }
