@@ -1,5 +1,6 @@
 +++
 title = "How it Works"
+template = "info-page.html"
 path = "how-it-works"
 
 [extra]
@@ -22,8 +23,8 @@ When both the toolkit and the platform adapter (see below) are written in Rust o
 
 #### Known Issues
 
-- The schema doesn’t yet define any events. While some events in platform accessibility APIs, such as focus change and property changes, can be implied from tree updates, other events, such as ad-hoc announcements meant for screen reader users, cannot.
-
+- The schema doesn’t yet define any events. While some events in platform accessibility APIs, such as focus change and property changes, can be implied from tree updates, other 
+  events, such as ad-hoc announcements meant for screen reader users, cannot.
 - The in-memory representation of a node has not yet been optimized.
 
 [Access the schema here](https://github.com/AccessKit/accesskit/tree/main/common)
@@ -75,9 +76,7 @@ AccessKit is also directly integrated into the [glazier](https://github.com/line
 The following adapters are planned:
 
 - Android
-
 - iOS
-
 - web (accomplished through the creation of a hidden HTML DOM)
 
 ### Consumer Library
