@@ -2,7 +2,7 @@
 title = "Introducing AccessKit: a New Open Source Project Designed to Make more Apps Accessible"
 path = "introducing-accesskit-a-new-open-source-project-designed-to-make-more-apps-accessible"
 authors = ["Matt Campbell"]
-date = 2023-01-01
+date = 2023-01-01T06:20:52Z
 +++
 
 The following introduction to AccessKit was originally made on September 26, 2021, on the [Pneuma Solutions blog](https://pneumasolutions.com/accesskit-a-new-open-source-project-to-help-make-more-apps-accessible/). This is a record of what the project is, where it was when we began, and what it aims to be. We already have more exciting news coming down the pipe, so here’s to a great 2023 for AccessKit and beyond.
