@@ -3,6 +3,7 @@ compile_sass = false
 build_search_index = false
 theme = "tabi"
 title = "AccessKit"
+generate_feeds = true
 
 [markdown]
 highlight_code = true
@@ -15,6 +16,12 @@ menu = [
     { name = "Blog", url = "blog", trailing_slash = true },
     { name = "Contact", url = "contact", trailing_slash = true },
 ]
+
+show_author = true
+show_reading_time = true
+long_date_format = "%d %B %Y"
+short_date_format = "%d %B %Y"
+separator = "|"
 
 socials = [
     { name = "GitHub", url = "https://github.com/AccessKit/accesskit", icon = "github" },
