@@ -21,3 +21,5 @@ socials = [
     { name = "Fosstodon", url = "https://fosstodon.org/@accesskit", icon = "mastodon" },
     { name = "YouTube", url = "https://www.youtube.com/@accesskit2196", icon = "youtube" },
 ]
+
+copyright = "© $CURRENT_YEAR $TITLE"
