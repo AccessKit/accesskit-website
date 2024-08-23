@@ -1,4 +1,4 @@
-base_url = "https://datatriny.github.io/accesskit-website"
+base_url = "https://accesskit.dev"
 compile_sass = false
 build_search_index = false
 theme = "tabi"
