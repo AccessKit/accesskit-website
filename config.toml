@@ -33,7 +33,7 @@ separator = "|"
 
 socials = [
     { name = "GitHub", url = "https://github.com/AccessKit/accesskit", icon = "github" },
-    { name = "Fosstodon", url = "https://fosstodon.org/@accesskit", icon = "mastodon" },
+    { name = "Follow us on Fosstodon", url = "https://fosstodon.org/@accesskit", icon = "mastodon" },
     { name = "YouTube", url = "https://www.youtube.com/@accesskit2196", icon = "youtube" },
 ]
 
