@@ -1,4 +1,5 @@
 base_url = "https://accesskit.dev"
+author = "The AccessKit contributors"
 compile_sass = false
 build_search_index = false
 theme = "tabi"
@@ -37,7 +38,7 @@ socials = [
     { name = "YouTube", url = "https://www.youtube.com/@accesskit2196", icon = "youtube" },
 ]
 
-copyright = "© $CURRENT_YEAR $TITLE"
+copyright = "[accesskit.dev](/) © $CURRENT_YEAR by $AUTHOR is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)"
 
 allowed_domains = [
     { directive = "font-src", domains = ["'self'", "data:"] },
