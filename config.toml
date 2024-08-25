@@ -18,7 +18,6 @@ highlight_theme = "css"
 invert_title_order = true
 
 menu = [
-    { name = "Home", url = "", trailing_slash = true },
     { name = "How it Works", url = "how-it-works", trailing_slash = true },
     { name = "Blog", url = "blog", trailing_slash = true },
     { name = "Contact", url = "contact", trailing_slash = true },
@@ -36,6 +35,11 @@ socials = [
     { name = "GitHub", url = "https://github.com/AccessKit/accesskit", icon = "github" },
     { name = "Follow us on Fosstodon", url = "https://fosstodon.org/@accesskit", icon = "mastodon" },
     { name = "YouTube", url = "https://www.youtube.com/@accesskit2196", icon = "youtube" },
+]
+
+footer_menu = [
+    { name = "Sponsor the Project", url = "https://github.com/sponsors/mwcampbell" },
+    { name = "Report an Issue", url = "https://github.com/AccessKit/accesskit/issues/new" },
 ]
 
 copyright = "[accesskit.dev](/) © $CURRENT_YEAR by $AUTHOR is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)"
