@@ -2,7 +2,6 @@
 title = "How it Works"
 template = "info-page.html"
 path = "how-it-works"
-insert_anchor_links = "left"
 
 [extra]
 header = { title = "How it Works" }
