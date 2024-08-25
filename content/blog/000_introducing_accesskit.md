@@ -2,10 +2,10 @@
 title = "Introducing AccessKit: a New Open Source Project Designed to Make more Apps Accessible"
 path = "introducing-accesskit-a-new-open-source-project-designed-to-make-more-apps-accessible"
 authors = ["Matt Campbell"]
-date = 2023-01-01T06:20:52Z
+date = 2021-09-26T17:31:46Z
 +++
 
-The following introduction to AccessKit was originally made on September 26, 2021, on the [Pneuma Solutions blog](https://pneumasolutions.com/accesskit-a-new-open-source-project-to-help-make-more-apps-accessible/). This is a record of what the project is, where it was when we began, and what it aims to be. We already have more exciting news coming down the pipe, so here’s to a great 2023 for AccessKit and beyond.
+[Originally published on the Pneuma Solutions blog](https://pneumasolutions.com/accesskit-a-new-open-source-project-to-help-make-more-apps-accessible/)
 
 There’s just about nothing more frustrating for blind people than trying to use an app, only to find that the app is inaccessible. Maybe your screen reader can’t read a key part of the app, or maybe it can’t read anything at all. When apps are developed using standard buttons, edit boxes, list boxes, tables, or other user interface elements, it’s not hard to make them accessible. But some apps are developed using a non-standard user interface toolkit, and these toolkits are completely inaccessible. Implementing accessibility from scratch in a user interface toolkit is difficult and time-consuming, so it usually doesn’t get done, except in the top few user interface toolkits with heavy corporate backing. Sometimes it’s truly necessary for an app developer to use a custom user interface toolkit, and sometimes it’s not, but regardless, we end up with inaccessible apps.
 
