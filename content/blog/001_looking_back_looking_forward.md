@@ -5,8 +5,6 @@ authors = ["Matt Campbell"]
 date = 2023-01-01T19:59:24Z
 +++
 
-a message from our founder
-
 2022 has been a great year for AccessKit, thanks to continued funding from the Google Fonts team. As we celebrate the new year, I’d like to look back on what we’ve accomplished in 2022, and look forward to the work that still needs to be done to fulfill AccessKit’s potential.
 
 ## Progress in 2022
