@@ -1,16 +1,5 @@
-
-
-
-
-
-
-
-
-
 +++
 title = "How it works"
-template = "info-page.html"
-path = "how-it-works"
 +++
 
 ## Data schema

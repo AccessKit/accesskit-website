@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="{{config.default_language}}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{% if page.title %}{{page.title}} - {{config.title}}{% else %}{{config.title}}: {{config.description}}{% endif %}</title>
+        <meta property="og:title" content="{% if page.title %}{{page.title}}{% else %}{{config.title}}{% endif %}">
+        <meta property="og:locale" content="en_US">
+        <meta name="description" content="{% if page.title %}{{page.title}}{% else %}{{config.description}}{% endif %}">
+        <meta property="og:description" content="{% if page.title %}{{page.title}}{% else %}{{config.description}}{% endif %}">
+        <meta property="og:site_name" content="{{config.title}}">
+        <meta property="og:type" content="website">
+        <meta name="twitter:card" content="summary">
+        <meta property="twitter:title" content="{% if page.title %}{{page.title}}{% else %}{{config.title}}{% endif %}">
+        <link rel="stylesheet" href="/main.css">
+        {% if config.generate_feeds %}
+        <link type="application/atom+xml" rel="alternate" href="/atom.xml" title="{{config.title}}">
+        {% endif %}
+    </head>
+    <body>
+        <header class="site-header" role="banner">
+            {% block header %}
+            <a class="site-title" rel="author" href="/">{{config.title}}</a>
+            <nav>
+                <ul>{% block navlinks %}
+                    <li><a href="/how-it-works/">How it works</a></li>
+                    <li><a href="/blog/">Blog</a></li>
+                    <li><a href="/contact/">Contact</a></li>
+                {% endblock navlinks %}</ul>
+            </nav>
+            {% endblock header %}
+        </header>
+        <main>
+            {% block content %}{% endblock content %}
+        </main>
+        <footer>
+            {% block footer %}
+            <ul>
+                <li><a href="https://github.com/AccessKit/accesskit/issues/new">Report an issue</a></li>
+                <li><a href="https://github.com/sponsors/mwcampbell">Sponsor the project</a></li>
+                <li><a href="https://github.com/AccessKit">GitHub</a></li>
+                <li><a href="https://fosstodon.org/@accesskit">Fosstodon</a></li>
+            </ul>
+            <p>&copy; 2024 The AccessKit Authors.</p>
+            <p>This website's content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+            <p>All code used in this website is available under the Apache-2.0 license.</p>
+            {% endblock footer %}
+        </footer>
+    </body>
+</html>

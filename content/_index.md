@@ -1,15 +1,5 @@
 +++
-title = "Recent Posts"
-sort_by = "date"
-template = "section.html"
-
-[extra]
-header = { title = "AccessKit" }
-section_path = "blog/_index.md"
-max_posts = 5
 +++
-
-## Accessibility infrastructure for UI toolkits
 
 AccessKit makes it easier to implement accessibility, for screen readers and other assistive technologies, in toolkits that render their own user interface elements. It provides a cross-platform, cross-language abstraction over accessibility APIs, so toolkit developers only have to implement accessibility once.
 
