@@ -3,10 +3,6 @@ title = "Talon Voice Control Application Implements AccessKit in Latest Beta"
 path = "talon-voice-control-application-implements-accesskit-in-latest-beta"
 authors = ["Matt Campbell"]
 date = 2023-03-16T15:24:48Z
-
-[taxonomies]
-categories = ["Integrations", "Milestones"]
-tags = ["Egui", "Talon"]
 +++
 
 It is with great pleasure that we recognize [Talon](https://talonvoice.com/), a cross-platform
