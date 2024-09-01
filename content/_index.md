@@ -7,25 +7,25 @@ AccessKit makes it easier to implement accessibility, for screen readers and oth
 
 AccessKit is written in Rust and has bindings for C and Python.
 
-### Rust
+* ### Rust
 
-The following Rust projects already integrate AccessKit:
+    The following Rust projects already integrate AccessKit:
 
-* [Bevy](https://bevyengine.org/)
-* [egui](https://github.com/emilk/egui)
-* [Slint](https://slint.dev/)
-* [Xilem](https://github.com/linebender/xilem)
+    * [Bevy](https://bevyengine.org/)
+    * [egui](https://github.com/emilk/egui)
+    * [Slint](https://slint.dev/)
+    * [Xilem](https://github.com/linebender/xilem)
 
-If you are using the [winit](https://crates.io/crates/winit) cross-platform windowing library for Rust, you should use the [AccessKit winit adapter](https://crates.io/crates/accesskit_winit). Otherwise, you'll need to use one or more of the AccessKit platform adapters:
+    If you are using the [winit](https://crates.io/crates/winit) cross-platform windowing library for Rust, you should use the [AccessKit winit adapter](https://crates.io/crates/accesskit_winit). Otherwise, you'll need to use one or more of the AccessKit platform adapters:
 
-* [macOS adapter](https://crates.io/crates/accesskit_macos)
-* [Unix adapter](https://crates.io/crates/accesskit_unix)
-* [Windows adapter](https://crates.io/crates/accesskit_windows)
+    * [macOS adapter](https://crates.io/crates/accesskit_macos)
+    * [Unix adapter](https://crates.io/crates/accesskit_unix)
+    * [Windows adapter](https://crates.io/crates/accesskit_windows)
 
-### C
+* ### C
 
-The latest release of the AccessKit C bindings, including the header file, pre-built libraries, examples, and source code, can be found on the [GitHub releases page for the C bindings](https://github.com/AccessKit/accesskit-c/releases).
+    The latest release of the AccessKit C bindings, including the header file, pre-built libraries, examples, and source code, can be found on the [GitHub releases page for the C bindings](https://github.com/AccessKit/accesskit-c/releases).
 
-### Python
+* ### Python
 
-You can find the [AccessKit Python bindings on PyPI](https://pypi.org/project/accesskit/).
+    You can find the [AccessKit Python bindings on PyPI](https://pypi.org/project/accesskit/).
