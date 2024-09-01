@@ -8,9 +8,7 @@ body {
   padding-right: 1em;
   padding-left: 1em;
   font-family: system-ui, sans-serif;
-}
-li {
-  margin-bottom: 0.25em;
+  line-height: 1.5;
 }
 .site-header {
   display: flex;
