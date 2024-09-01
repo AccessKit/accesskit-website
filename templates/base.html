@@ -19,50 +19,36 @@
     </head>
     <body>
         <header class="site-header" role="banner">
-            <div class="wrapper">
-                {% block header %}
-                <a class="site-title" rel="author" href="/">{{config.title}}</a>
-                <nav class="site-nav">
-                    <ul>{% block navlinks %}
-                        <li><a href="/how-it-works/">How it works</a></li>
-                        <li><a href="/blog/">Blog</a></li>
-                        <li><a href="/contact/">Contact</a></li>
-                    {% endblock navlinks %}</ul>
-                </nav>
-                {% endblock header %}
-            </div>
+            {% block header %}
+            <a class="site-title" rel="author" href="/">{{config.title}}</a>
+            <nav>
+                <ul>{% block navlinks %}
+                    <li><a href="/how-it-works/">How it works</a></li>
+                    <li><a href="/blog/">Blog</a></li>
+                    <li><a href="/contact/">Contact</a></li>
+                {% endblock navlinks %}</ul>
+            </nav>
+            {% endblock header %}
         </header>
-        <main class="page-content">
-            <div class="wrapper">
-                {% block content %}{% endblock content %}
-            </div>
+        <main>
+            {% block content %}{% endblock content %}
         </main>
         <footer class="site-footer h-card">
-            <div class="wrapper">
-                {% block footer %}
-                <div class="footer-col-wrapper">
-                    <div class="footer-col footer-col-1">
-                        <ul class="footer-list">
-                            <li><a href="https://github.com/AccessKit/accesskit/issues/new">Report an issue</a></li>
-                            <li><a href="https://github.com/sponsors/mwcampbell">Sponsor the project</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="footer-col footer-col-2">
-                        <ul class="footer-list">
-                            <li><a href="https://github.com/AccessKit">GitHub</a></li>
-                            <li><a href="https://fosstodon.org/@accesskit">Fosstodon</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="footer-col footer-col-3">
-                        <p>&copy; 2024 The AccessKit Authors.</p>
-                        <p>This website's content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
-                        <p>All code used in this website is available under the Apache-2.0 license.</p>
-                    </div>
-                </div>
-                {% endblock footer %}
+            {% block footer %}
+            <ul>
+                <li><a href="https://github.com/AccessKit/accesskit/issues/new">Report an issue</a></li>
+                <li><a href="https://github.com/sponsors/mwcampbell">Sponsor the project</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://github.com/AccessKit">GitHub</a></li>
+                <li><a href="https://fosstodon.org/@accesskit">Fosstodon</a></li>
+            </ul>
+            <div class="footer-legal">
+                <p>&copy; 2024 The AccessKit Authors.</p>
+                <p>This website's content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+                <p>All code used in this website is available under the Apache-2.0 license.</p>
             </div>
+            {% endblock footer %}
         </footer>
     </body>
 </html>
