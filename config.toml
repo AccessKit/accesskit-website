@@ -1,4 +1,55 @@
 base_url = "https://accesskit.dev"
+author = "The AccessKit contributors"
+compile_sass = false
+build_search_index = false
+theme = "tabi"
 title = "AccessKit"
-description = "Accessibility infrastructure for UI toolkits"
 generate_feeds = true
+taxonomies = [
+    { name = "categories", feed = true },
+    { name = "tags", feed = true },
+]
+
+[markdown]
+highlight_code = true
+highlight_theme = "css"
+
+[extra]
+invert_title_order = true
+
+menu = [
+    { name = "How it Works", url = "how-it-works", trailing_slash = true },
+    { name = "Blog", url = "blog", trailing_slash = true },
+    { name = "Contact", url = "contact", trailing_slash = true },
+]
+
+quick_navigation_buttons = true
+
+show_author = true
+show_reading_time = true
+long_date_format = "%d %B %Y"
+short_date_format = "%d %B %Y"
+separator = "|"
+
+socials = [
+    { name = "GitHub", url = "https://github.com/AccessKit/accesskit", icon = "github" },
+    { name = "Follow us on Fosstodon", url = "https://fosstodon.org/@accesskit", icon = "mastodon" },
+    { name = "YouTube", url = "https://www.youtube.com/@accesskit2196", icon = "youtube" },
+]
+
+footer_menu = [
+    { name = "Sponsor the Project", url = "https://github.com/sponsors/mwcampbell" },
+    { name = "Report an Issue", url = "https://github.com/AccessKit/accesskit/issues/new" },
+]
+
+copyright = "[accesskit.dev](/) © $CURRENT_YEAR by $AUTHOR is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)"
+
+allowed_domains = [
+    { directive = "font-src", domains = ["'self'", "data:"] },
+    { directive = "img-src", domains = ["'self'", "https://*", "data:"] },
+    { directive = "media-src", domains = ["'self'", "https://cdn.jsdelivr.net/"] },
+    { directive = "script-src", domains = ["'self'"] },
+    { directive = "style-src", domains = ["'self'"] },
+    { directive = "frame-src", domains = ["https://www.youtube.com"] },
+]
+enable_csp = true

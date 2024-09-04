@@ -1,5 +1,10 @@
 +++
 title = "Contact"
+template = "info-page.html"
+path = "contact"
+
+[extra]
+header = { title = "Contact" }
 +++
 
 ## Send us an Email
