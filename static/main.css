@@ -50,6 +50,9 @@ footer ul {
 }
 .list-post-title {
   font-size: 120%;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 h3, h4, h5, h6 {
   font-size: 100%;
