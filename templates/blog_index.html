@@ -5,7 +5,7 @@
 <ul class="blog-list">
     {% for page in section.pages %}
     <li>
-        <div><a class="list-post-title" href="{{ page.permalink | safe }}">{{ page.title }}</a></div>
+        <h2 class="list-post-title"><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h2>
         <div class="list-post-date"> {{ page.date | date(format="%B %-d, %Y") }}</div>
         {% if page.authors %}
         <div class="list-post-authors"> {{page.authors | join(sep=", ")}} </div>
