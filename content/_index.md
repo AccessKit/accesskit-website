@@ -13,6 +13,7 @@ The following Rust projects already integrate AccessKit:
 
 * [Bevy](https://bevyengine.org/)
 * [egui](https://github.com/emilk/egui)
+* [Freya](https://freyaui.dev/)
 * [Slint](https://slint.dev/)
 * [Xilem](https://github.com/linebender/xilem)
 
