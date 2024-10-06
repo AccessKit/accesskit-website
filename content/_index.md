@@ -13,9 +13,9 @@ The following Rust projects already integrate AccessKit:
 
 * [Bevy](https://bevyengine.org/)
 * [egui](https://github.com/emilk/egui)
+* [Freya](https://freyaui.dev/)
 * [Slint](https://slint.dev/)
 * [Xilem](https://github.com/linebender/xilem)
-* [Freya](https://freyaui.dev/)
 
 If you are using the [winit](https://crates.io/crates/winit) cross-platform windowing library for Rust, you should use the [AccessKit winit adapter](https://crates.io/crates/accesskit_winit). Otherwise, you'll need to use one or more of the AccessKit platform adapters:
 
